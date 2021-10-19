@@ -1,0 +1,10 @@
+.contact-style a{
+    text-decoration: none;
+   color: black;
+}
+.contact-style a:hover{
+    color: rgb(9, 36, 185);
+}
+.title{
+    font-size: 30px;
+}

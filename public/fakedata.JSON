@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Eye Care",
+        "text": "Good eye health starts with the food on your plate. Nutrients like omega-3 fatty acids, lutein, zinc, and vitamins C and E might help ward off age-related vision problems like macular degeneration and cataracts.",
+        "img": "https://advancedeyecaremd.net/wp-content/uploads/2019/06/Surgical-Eye-Care.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Blood Cancer",
+        "text": "Blood cancers affect the production and function of your blood cells. Most of these cancers start in your bone marrow where blood is produced. Stem cells in your bone marrow mature and develop into three types of blood cells: red blood cells, white blood cells, or platelets.",
+        "img": "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/05/17/Pictures/doctor-with-cancer-patient_996f6b40-59bc-11e8-b87b-3dd7d8bd63e9.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Neurology Surgery",
+        "text": "A physician who specializes in neurosurgery. Neurosurgeons are not just brain surgeons, they are medically trained neurosurgical specialists who can also help patients suffering from back and neck pain as well as a host of other illnesses ranging from trigeminal neuralgia to head injury and Parkinson's disease.",
+        "img": "https://ibnalnafees.com/wp-content/uploads/2016/09/2neurosurgery-1160x653.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Allergic Issue",
+        "text": "Allergies can cause a variety of symptoms such as a runny nose, sneezing, itching, rashes, swelling, or asthma. Allergies can range from minor to severe.",
+        "img": "https://completewellbeing.com/wp-content/uploads/2013/07/allergy-an-itchy-issue.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Body Surgery",
+        "text": "If you’re thinking about having surgery to tweak or tighten your tummy, thighs, arms or buttocks, body contouring is an option that can improve your shape.",
+        "img": "https://goalsplasticsurgery.com/wp-content/uploads/2020/01/abdominal.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dental Care",
+        "text": "Good dental or oral care is important to maintaining healthy teeth, gums and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQFpzXMXciYKH2dUjwk-gALGI6iCqxNQxAxUvNuMRDNSASufV20fD47LygE1WJNzzTVyw&usqp=CAU"
+    }
+]

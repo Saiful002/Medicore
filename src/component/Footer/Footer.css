@@ -1,0 +1,9 @@
+.f-text-style h2{
+    font-size: 50px;
+}
+.fab{
+    font-size:25px ;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
