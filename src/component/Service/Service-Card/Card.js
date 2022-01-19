@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Card.css"
 
 const Card = (props) => {
-    const { img, name, text } = props.service
+    const { img, name, text, id } = props.service
     return (
         <div>
             <div className="col">
@@ -11,6 +12,9 @@ const Card = (props) => {
                     <div className="card-body">
                         <h1 className="card-title">{name}</h1>
                         <p className="card-text">{text}</p>
+                    </div>
+                    <div className='d-flex justify-content-center mb-3'>
+                        <Link to={`/treatment/${id}`}><button className='btn btn-primary'>Get Treatment</button></Link>
                     </div>
                 </div>
             </div>

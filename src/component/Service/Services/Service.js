@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import sImage from '../../images/1180_generated.jpg'
+import sImage from '../../../images/1180_generated.jpg'
 import Card from '../Service-Card/Card';
 
 const Service = () => {

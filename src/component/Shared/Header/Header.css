@@ -1,0 +1,11 @@
+.nav-item{
+    color: black;
+    margin-right: 5px;
+}
+.item-style{
+    justify-content: center;
+}
+.user-pic{
+    height: 40px;
+    width: 40px;
+}

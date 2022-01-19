@@ -1,17 +1,12 @@
 import React from 'react';
-import fImage from '../../images/agussss_(9).jpg'
 
-import './Home.css'
-
-const Home = () => {
+import './Features.css'
+const Features = () => {
     return (
         <div>
+
             <div>
-                <h1 className='text-center fw-bold mt-5'>WELCOME TO MEDI <span className='text-success'>CORE <i className="fas fa-hand-holding-medical text-danger"></i></span></h1>
-                <img src={fImage} className='img-fluid mt-3' alt="" />
-            </div>
-            <div>
-                <h1 className='text-center fw-bold mt-5'>OUR SERVICES</h1>
+                <h1 className='text-center fw-bold mt-5'>OUR FEATURES</h1>
                 <div className="row mt-5 container">
                     <div className="col-md-4 d-flex">
                         <i className="far fa-eye mx-4 icon text-info"></i>
@@ -61,4 +56,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Features;
