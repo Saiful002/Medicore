@@ -1,0 +1,127 @@
+[debug] [2022-01-20T13:59:54.005Z] ----------------------------------------------------------------------
+[debug] [2022-01-20T13:59:54.007Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-20T13:59:54.007Z] CLI Version:   10.1.1
+[debug] [2022-01-20T13:59:54.007Z] Platform:      win32
+[debug] [2022-01-20T13:59:54.007Z] Node Version:  v14.17.1
+[debug] [2022-01-20T13:59:54.008Z] Time:          Thu Jan 20 2022 19:59:54 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-01-20T13:59:54.008Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-20T13:59:54.010Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-01-20T13:59:54.028Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-20T13:59:54.028Z] > authorizing via signed-in user (saifulkabirchowdhury@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web Developement course\Milestone-10      [React Authentication]\Module-62       (Assignment-10)\Assignment-10\medicore
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-20T14:00:21.906Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-20T14:00:21.909Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-01-20T14:00:21.915Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:213:19)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getProjectPage (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:233:17)
+    at async getFirebaseProjectPage (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:250:23)
+    at async selectProjectInteractively (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:95:41)
+    at async Object.doSetup [as project] (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-01-20T14:00:33.778Z] ----------------------------------------------------------------------
+[debug] [2022-01-20T14:00:33.780Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-20T14:00:33.780Z] CLI Version:   10.1.1
+[debug] [2022-01-20T14:00:33.780Z] Platform:      win32
+[debug] [2022-01-20T14:00:33.780Z] Node Version:  v14.17.1
+[debug] [2022-01-20T14:00:33.781Z] Time:          Thu Jan 20 2022 20:00:33 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-01-20T14:00:33.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-20T14:00:33.783Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-01-20T14:00:33.800Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-20T14:00:33.800Z] > authorizing via signed-in user (saifulkabirchowdhury@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web Developement course\Milestone-10      [React Authentication]\Module-62       (Assignment-10)\Assignment-10\medicore
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-20T14:02:32.386Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2022-01-20T14:02:32.389Z] Failed to make request to https://firebase.googleapis.com/v1beta1/availableProjects?pageSize=100
+[debug] [2022-01-20T14:02:32.395Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/availableProjects?pageSize=100
+    at Client.doRequest (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:213:19)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getProjectPage (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:233:17)
+    at async getAvailableCloudProjectPage (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:265:16)
+    at async promptAvailableProjectId (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:143:41)
+    at async promptAndAddFirebaseToCloudProject (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:37:23)
+    at async Object.doSetup [as project] (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to list available Google Cloud Platform projects. See firebase-debug.log for more info.
+[debug] [2022-01-20T14:03:06.517Z] ----------------------------------------------------------------------
+[debug] [2022-01-20T14:03:06.519Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-20T14:03:06.519Z] CLI Version:   10.1.1
+[debug] [2022-01-20T14:03:06.519Z] Platform:      win32
+[debug] [2022-01-20T14:03:06.519Z] Node Version:  v14.17.1
+[debug] [2022-01-20T14:03:06.520Z] Time:          Thu Jan 20 2022 20:03:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-01-20T14:03:06.520Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-20T14:03:06.522Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-01-20T14:03:06.539Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-20T14:03:06.540Z] > authorizing via signed-in user (saifulkabirchowdhury@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Web Developement course\Milestone-10      [React Authentication]\Module-62       (Assignment-10)\Assignment-10\medicore
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-20T14:03:24.954Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-20T14:03:24.957Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-01-20T14:03:24.963Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at Client.doRequest (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:213:19)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getProjectPage (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:233:17)
+    at async getFirebaseProjectPage (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:250:23)
+    at async selectProjectInteractively (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:95:41)
+    at async Object.doSetup [as project] (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
